@@ -1,7 +1,7 @@
 # He 1083 forward modelling with radiative transfer
 
 This repository contains the code needed to do the modelling of the He 1083 with relaxed flat spectrum aproximation in a slab with radiative transfer.
-The code is described in the paper "" (include link).
+The code is described in the paper "" (include link). And was mainly developed by Andres Vicente and Tanausu del Pino Aleman.
 
 ## Requirements
 
