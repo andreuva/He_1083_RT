@@ -39,7 +39,7 @@ class term_class():
               self.NN: Number of density matrix elements for the term
               self.Mblock: Index data for the blocks of M magnetic
                            number
-              self.index_nuM: List of indexes of all jM combinations.
+              self.index_muM: List of indexes of all jM combinations.
                               Each element has:
                                index, J level, J value, j level, M value
               self.eigval: List of the Hamiltonian eigenvalues, ordered
@@ -47,7 +47,7 @@ class term_class():
               self.eigvec: List of the Hamiltonian eigenvectors, ordered
                            by Mblock indexes (self.index_muM[0]), with
                            each element a vector with indexes given by
-                           self.index_nuM[1].
+                           self.index_muM[1].
               self.i0: Initial global atomic index for the density
                        matrix elements of this term
               self.index: Indexing of the density matrix elements.
