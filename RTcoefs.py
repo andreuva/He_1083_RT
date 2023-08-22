@@ -717,5 +717,17 @@ class RTcoefs:
         # SS = np.concatenate((eps0,eps1,eps2,eps3)).reshape((4,cdts.nus_N))
         SS = [eps0,eps1,eps2,eps3]
 
+        # save for debugging
+        # if not ray.is_downward:
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/eta1_py.csv", eta1)
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/eta2_py.csv", eta2)
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/eta3_py.csv", eta3)
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/rho0_py.csv", rho0)
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/rho1_py.csv", rho1)
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/rho2_py.csv", rho2)
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/eps0_py.csv", eps0)
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/eps1_py.csv", eps1)
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/eps2_py.csv", eps2)
+        #   np.savetxt("/home/avicente/Documents/IMP/code/atoms/HeIAtom/tests/eps3_py.csv", eps3)
 
         return SS, KK
